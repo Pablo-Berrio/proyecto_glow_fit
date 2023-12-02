@@ -1,93 +1,200 @@
 @media screen and (max-width: 700px) {
-    .nav {        
+    .nav {
         flex-direction: column;
         height: auto;
     }
-    .contenedor-enlaces{
+
+    .contenedor-enlaces {
         flex-direction: column;
-        height: auto; 
-        gap: 20px; 
+        height: auto;
+        gap: 20px;
         align-items: center;
     }
-    .contenedor-botones-nav{
+
+    .contenedor-botones-nav {
         width: 50%;
         padding: 5%;
     }
 
-    .contenedor-portada{
+    .contenedor-portada {
         height: 140px;
     }
 
-    .contenedor-titulos p{
+    .contenedor-titulos p {
         display: none;
     }
-    .contenedor-titulos h1{
-        font-size:30px;
-    }
-    .container-registro{
-        width:70vw;
-        left: 10%;
-    }
-    .container-login{
-        width: 70vw;
-        left: 10%; 
+
+    .contenedor-titulos h1 {
+        font-size: 30px;
     }
 
-    .contenedor-planes{
+    .container-registro {
+        width: 70vw;
+        left: 10%;
+    }
+
+    .container-login {
+        width: 70vw;
+        left: 10%;
+    }
+
+    .contenedor-planes {
         flex-direction: column;
-        height: auto; 
-        gap: 20px; 
+        height: auto;
+        gap: 20px;
         align-items: center;
     }
-    .boton-salir-planes{
+
+    .boton-salir-planes {
         margin-top: 10% !important;
     }
 
     .contenedor-imagen-portada {
-      top: 350px;
-        
+        top: 350px;
+
     }
-    .contenedor-razones{
+
+    .contenedor-razones {
         display: none;
     }
 
-    .contenedor-cards{
+    .contenedor-cards {
         margin-top: 300px;
     }
-    .contenedor-cards article img{
+
+    .contenedor-cards article img {
         width: auto;
     }
 
-    .testimonios{
+    .testimonios {
         margin-top: 320px;
     }
-    .testimonios-text{
+
+    .testimonios-text {
         margin-top: -180px;
     }
-    .carrusel-imagenes{
+
+    .carrusel-imagenes {
         margin-top: -90px;
     }
 
-    .contenedor-imagen-parrafos{
+    .contenedor-imagen-parrafos {
         flex-direction: column;
     }
-    .contenedor-imagen-parrafos article{
+
+    .contenedor-imagen-parrafos article {
         width: 100%;
         gap: -250px;
         margin-top: 30px;
     }
-    .contenedor-imagen-parrafos article p{
+
+    .contenedor-imagen-parrafos article p {
         font-size: 30px;
     }
 
-    
-    .contenedor-imagen-parrafos article h3{
+
+    .contenedor-imagen-parrafos article h3 {
         display: none;
     }
-    
 
-   
-    
+    .dia {
+        width: 90%;
+        height: auto;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .titulo-dia {
+        height: auto;
+        margin-top: 20%;
+    }
+    .titulo-dia h4{
+        position: relative;
+        top: -80px;
+    }
+    .ejercicio{
+        top: auto;
+        
+    }
 
 
-  }
+    .contenedor-dias {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin-left: 25%;
+    }
+
+    .ejercicio-diario {
+        flex-direction: column;
+        
+    }
+
+    .contenido {
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    .menu{
+        position: fixed;
+        top: 170px;
+        background-color: rgba(255, 255, 255, 0);
+        gap: 20px;
+    }
+
+    .contenidoAlimentacion{
+        flex-direction:column;
+        margin-top: 200px;
+        height: auto;       
+    }
+
+    .contenidoRecomendaciones{
+        height: auto;
+    }
+
+    .cardRecomendaciones{
+        height: auto;
+    }
+
+    .card-intRecomendaciones{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .tittleRecomendaciones{
+        font-size: 80px;
+    }
+
+    .menuRecomendacines{
+        position: fixed;
+        top: 50px;
+        background-color: rgba(255, 255, 255, 0);
+        gap: 40px;
+    }
+
+    .contenedor-planes-nav{
+        flex-direction: column;
+    }
+    .menuAlimentacion{
+        gap: 90px;
+    }
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 1150px){
+    .card-intRecomendaciones{
+        flex-direction: column;
+        height: auto;
+    }
+    .cardRecomendaciones{
+        height: auto;
+    }
+}
